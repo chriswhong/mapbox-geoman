@@ -1,0 +1,75 @@
+html, body, #dev-map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the save button */
+.save-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  padding: 10px 15px;
+  background-color: #007cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover:not(:disabled) {
+  background-color: #005a87;
+}
+
+.save-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.save-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Styling for the vertex deletion button */
+.vertex-delete-button {
+  position: absolute;
+  top: 10px;
+  right: 140px; /* Position to the left of save button */
+  z-index: 1000;
+  padding: 10px 15px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.2s ease;
+}
+
+.vertex-delete-button:hover {
+  background-color: #5a6268;
+}
+
+.vertex-delete-button:active {
+  transform: translateY(1px);
+}
+
+/* Styling for vertex markers */
+.vertex-marker {
+  transition: all 0.2s ease;
+}
+
+.vertex-marker:hover {
+  background-color: #ff0000 !important;
+  transform: translate(-50%, -50%) scale(1.3) !important;
+  box-shadow: 0 0 0 2px rgba(255,68,68,0.5) !important;
+}
