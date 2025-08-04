@@ -1,7 +1,5 @@
 # Mapbox GL JS Geoman Integration
 
-A custom implementation that integrates the `@geoman-io/maplibre-geoman-free` GeoJSON editing library with Mapbox GL JS.
-
 This is a proof-of-concept implementation demonstrating how to adapt the Geoman library for use with the Mapbox GL JS mapping library.
 
 ![geoman mapbox](https://github.com/user-attachments/assets/6349cc31-cca6-4862-aac3-0220ce48877e)
