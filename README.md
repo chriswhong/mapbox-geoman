@@ -4,6 +4,13 @@ This is a proof-of-concept implementation demonstrating how to adapt the Geoman 
 
 ![geoman mapbox](https://github.com/user-attachments/assets/6349cc31-cca6-4862-aac3-0220ce48877e)
 
+<iframe 
+  src="https://geojson.io" 
+  width="100%" 
+  height="600px"
+  frameborder="0">
+</iframe>
+
 
 ## Overview
 
