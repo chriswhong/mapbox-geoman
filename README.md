@@ -2,7 +2,6 @@
 
 This is a proof-of-concept implementation demonstrating how to adapt the Geoman geojson drawing library for use with the Mapbox GL JS mapping library.
 
-![geoman mapbox](https://github.com/user-attachments/assets/6349cc31-cca6-4862-aac3-0220ce48877e)
 
 <iframe 
   src="https://geojson.io" 
